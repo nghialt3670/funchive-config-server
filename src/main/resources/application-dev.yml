@@ -2,6 +2,5 @@ spring:
   cloud:
     config:
       server:
-        git:
-          default-label: dev
-          clone-on-start: false
+        native:
+          search-locations: file:///D:/Projects/Funchive/funchive-config-repo/{application}
